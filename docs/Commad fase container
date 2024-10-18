@@ -1,0 +1,47 @@
+#Berikut adalah beberapa contoh command yang biasa digunakan:
+
+#1. Mengecek Sistem dan Konfigurasi OS
+cat /etc/os-release: Menampilkan informasi tentang distribusi Linux yang berjalan di dalam container.
+uname -a: Menampilkan informasi tentang kernel dan sistem operasi yang sedang digunakan.
+cat /proc/version: Informasi detail mengenai versi kernel.
+hostname: Melihat hostname dari container.
+
+#2. Mengecek File-System
+ls /: Menampilkan direktori root dari filesystem container.
+ls /dev/: Melihat daftar perangkat yang terhubung atau disediakan oleh container.
+df -h: Mengecek ruang disk yang tersedia dan digunakan dalam filesystem container.
+mount: Melihat filesystem yang ter-mount di dalam container.
+
+#3. Memeriksa Proses yang Berjalan
+ps aux: Melihat daftar proses yang berjalan di dalam container.
+top: Monitoring aktivitas sistem dan melihat proses secara real-time.
+
+#4. Memeriksa Jaringan
+ifconfig atau ip a: Menampilkan informasi jaringan, seperti alamat IP container.
+netstat -tuln: Menampilkan port yang terbuka di dalam container.
+ping: Mengecek konektivitas jaringan container ke alamat eksternal.
+
+#5. Memeriksa Konfigurasi Container
+cat /etc/hosts: Menampilkan informasi mapping hostname ke IP di dalam container.
+cat /etc/resolv.conf: Melihat konfigurasi DNS yang digunakan container.
+env: Melihat semua variabel lingkungan (environment variables) yang aktif di dalam container.
+
+#6. Memeriksa Log dan Status Service
+journalctl: Menampilkan log sistem dalam container yang mendukung systemd.
+systemctl status: Melihat status service yang berjalan (jika container menggunakan systemd).
+dmesg: Menampilkan log kernel terkait sistem perangkat keras dan operasi.
+
+#7. Memeriksa Akses dan Izin File
+ls -l /path/to/file: Mengecek izin dan kepemilikan file atau direktori dalam container.
+stat /path/to/file: Menampilkan detail metadata dari file.
+
+#8. Mengecek Penggunaan Memory dan CPU
+free -m: Melihat penggunaan memori (RAM) dalam container.
+uptime: Melihat waktu aktif container serta load CPU.
+
+#9. Memeriksa Paket yang Terinstal
+dpkg -l atau rpm -qa: Melihat daftar paket yang terinstal, bergantung pada distribusi Linux yang digunakan (Debian/Ubuntu atau Red Hat/CentOS).
+apt list --installed: Untuk distribusi berbasis Debian (Ubuntu), menampilkan daftar paket yang terinstal.
+10. Melakukan Interaksi dengan Sistem File dan Konfigurasi
+cat /etc/passwd: Menampilkan daftar pengguna dalam container.
+cat /etc/group: Menampilkan daftar grup dalam container.
