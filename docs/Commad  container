@@ -1,10 +1,10 @@
 #Berikut adalah beberapa contoh command yang biasa digunakan:
 
 #1. Mengecek Sistem dan Konfigurasi OS
-cat /etc/os-release: Menampilkan informasi tentang distribusi Linux yang berjalan di dalam container.
-uname -a: Menampilkan informasi tentang kernel dan sistem operasi yang sedang digunakan.
-cat /proc/version: Informasi detail mengenai versi kernel.
-hostname: Melihat hostname dari container.
+cat /etc/os-release: #Menampilkan informasi tentang distribusi Linux yang berjalan di dalam container.
+uname -a: #Menampilkan informasi tentang kernel dan sistem operasi yang sedang digunakan.
+cat /proc/version: #Informasi detail mengenai versi kernel.
+hostname: #Melihat hostname dari container.
 
 #2. Mengecek File-System
 ls /: Menampilkan direktori root dari filesystem container.
