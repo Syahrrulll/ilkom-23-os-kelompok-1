@@ -106,4 +106,5 @@ http://localhost:8000
 
 Tampilan Web
 berikut ini contoh tampilan web yang di hasilkan
-![Deskripsi Gambar](https://drive.google.com/file/d/1Gn3u3J_bGnxKteFVIfeQGP5ZjbtOc49F/view?usp=drive_link)
+![Google Drive File](https://drive.google.com/file/d/1Gn3u3J_bGnxKteFVIfeQGP5ZjbtOc49F/view?usp=drive_link)
+
