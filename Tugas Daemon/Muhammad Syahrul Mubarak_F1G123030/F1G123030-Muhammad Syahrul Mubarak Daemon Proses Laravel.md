@@ -75,7 +75,7 @@ Jalankan perintah berikut untuk memberikan izin eksekusi pada skrip:
  
 ```
 
-### 3. Menjalankan dan Menghentikan Server
+### 4. Menjalankan dan Menghentikan Server
 
 #### a. Untuk Memulai Server
 Jalankan server dengan perintah:
@@ -97,12 +97,12 @@ Hentikan server dengan perintah:
 Laravel server stopped.
 ```
 
-### 4. Mengakses Aplikasi Laravel
+### 5. Mengakses Aplikasi Laravel
 Setelah server berjalan, nyalakan laragonnya untuk mengkoneksikan databasenya lalu buka browser dan masukkan URL:
 ```
 http://localhost:8000
 ```
-### 5. Screenshot
+### 6. Screenshot
 
 Tampilan Web
 berikut ini contoh tampilan web yang di hasilkan
