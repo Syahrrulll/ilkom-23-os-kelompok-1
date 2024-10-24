@@ -221,7 +221,7 @@ class VisitorDaemon {
         }
     }
 }
-
+//up
 // Jalankan daemon
 $daemon = new VisitorDaemon();
 $daemon->start();
