@@ -76,6 +76,7 @@ Jalankan perintah berikut untuk memberikan izin eksekusi pada skrip:
  chmod +x laravel-daemon.sh
 ```
 
+
 ### 4. Menjalankan dan Menghentikan Server
 
 #### a. Mulai Server
