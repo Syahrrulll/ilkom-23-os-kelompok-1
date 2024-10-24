@@ -72,7 +72,7 @@ esac
 #### d. Berikan Izin Eksekusi
 Jalankan perintah berikut untuk memberikan izin eksekusi pada skrip:
 ```bash
- 
+ chmod +x laravel-daemon.sh
 ```
 
 ### 4. Menjalankan dan Menghentikan Server
