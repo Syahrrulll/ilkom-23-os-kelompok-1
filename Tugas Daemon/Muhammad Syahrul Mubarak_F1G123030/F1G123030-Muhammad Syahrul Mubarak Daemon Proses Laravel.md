@@ -1,11 +1,19 @@
-# MENDEMONSTRASIKAN DAEMON PROCESS DI LARAVEL
+# MENJALANKAN DAEMON PROCESS DI LARAVEL
 
-## Deskripsi
+## DEFINISI DAEMON
+Daemon adalah program komputer yang berjalan di latar belakang sistem operasi (OS) dan menangani permintaan layanan berkala. Daemon biasanya dimulai saat sistem di-boot dan terus berjalan hingga sistem dimatikan. 
+
+## DESKRIPSI
 File ini adalah panduan atau dokumentasi untuk menjelaskan cara membuat dan menggunakan skrip untuk menjalankan dan menghentikan server Laravel sebagai daemon di laravel.
 
-## Prosedur
+## LANGKAH LANGKAH
 
-### 1. buatlah Proyek Laravel atau salin proyek laravel orang lain
+### 1. BAHAN BAHAN YANG DI PERLUKAN
+Download [Laragon](https://laragon.org/download) Di Website Resmi Laragon
+Download [Git](https://git-scm.com/downloads) Di Website Resminya
+
+
+### 2. BUATLAH FRAMEWORK LARAVEL ATAU ANDA BISA MENG CLONE LARAVEL DARI REPOSITORI LAIN
 
 #### a. Clone proyek Laravel yang diinginkan dari repositori lain dengan perintah:
 ```bash
@@ -13,8 +21,9 @@ git clone < proyek_yang_akan_diclone >
 ```
 #### b. buka folder proyek laravel yang sudah ada atau yang sudah diclone sebelumnya bisa dilakukan melalui teks editor agar lebih mudah
 
-### 2. Membuat Skrip Daemon
+### 3. MEMBUAT SKRIP DAMEON
 
+#### BUKA GIT BASHNYA TERLEBIH DAHULU
 #### a. Buat File Skrip
 Buat file baru bernama `laravel-daemon.sh` dengan perintah:
 ```bash
@@ -63,10 +72,10 @@ esac
 #### d. Berikan Izin Eksekusi
 Jalankan perintah berikut untuk memberikan izin eksekusi pada skrip:
 ```bash
-chmod +x laravel-daemon.sh
+ chmod +x laravel-daemon.sh
 ```
 
-### 3. Menjalankan dan Menghentikan Server
+### 4. Menjalankan dan Menghentikan Server
 
 #### a. Untuk Memulai Server
 Jalankan server dengan perintah:
@@ -88,16 +97,16 @@ Hentikan server dengan perintah:
 Laravel server stopped.
 ```
 
-### 4. Mengakses Aplikasi Laravel
-Setelah server berjalan, buka browser dan masukkan URL:
+### 5. Mengakses Aplikasi Laravel
+Setelah server berjalan, nyalakan laragonnya untuk mengkoneksikan databasenya lalu buka browser dan masukkan URL:
 ```
 http://localhost:8000
 ```
-### 5. Screenshot
-Tampilan Proses Menjalankan Script
-berikut ini contoh tampilan script untuk daemon di bash
-![Deskripsi Gambar](https://drive.google.com/uc?id=1-UBGLEnwb5bMErcI2hS1qcxSnuKnMo_B)
+### 6. Screenshot
 
 Tampilan Web
 berikut ini contoh tampilan web yang di hasilkan
-![Deskripsi Gambar](https://drive.google.com/uc?id=1-WNurD9OZf2wbtYvcvwTAWjtu7sxAcOD)
+![Deksripsi Gambar](https://drive.google.com/uc?export=download&id=1Gn3u3J_bGnxKteFVIfeQGP5ZjbtOc49F)
+
+
+
