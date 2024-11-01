@@ -177,4 +177,5 @@ sudo systemctl start cyber.service
 ```
 
 adapun tampilan dari daemon:
-[Contoh](https://drive.google.com/uc?id=1u2AUMSTHRlq1-lVtPZE3GfiWXNguy46r)
+[Ubuntu](https://drive.google.com/uc?id=1u2AUMSTHRlq1-lVtPZE3GfiWXNguy46r)
+
