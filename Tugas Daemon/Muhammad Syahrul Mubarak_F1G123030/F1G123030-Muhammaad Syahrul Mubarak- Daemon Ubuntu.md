@@ -144,15 +144,18 @@ Restart=always
 WantedBy=multi-user.target
 
 ## 6. Memberikan Izin pada File Service
-bash
+```
 sudo chmod 644 /etc/systemd/system/cyber.service
+```
 
-## 7. Menjalankan file Service
+## 7. Menjalankan file 
+```
 bash
 #reload daemon
 sudo systemctl daemon-reload
 
 # Enable service agar start saat boot
+
 sudo systemctl enable cyber.service
 
 #start service
@@ -160,16 +163,18 @@ sudo systemctl start cyber.service
 
 #cek status 
 sudo sytemctl status cyber.service
-
+```
 ## 8. Melihat log service
+```
 bash
 $ sudo journal -u cyber.service
 
-
+```
 ## 9. Memberhentikan server
+```
 bash
 sudo systemctl start cyber.service
-
+```
 
 adapun tampilan dari daemon:
 [Contoh](https://drive.google.com/uc?id=1u2AUMSTHRlq1-lVtPZE3GfiWXNguy46r)
