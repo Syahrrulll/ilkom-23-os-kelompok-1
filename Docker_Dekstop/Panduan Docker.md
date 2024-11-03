@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-# UNTUK MENJALAN DOCKERNYA HARAP PULL TERLEBIH DAHULU
-```
-docker pull
-```
-# SERVER AKAN BERJALAN DI LOCALHOST:8000
 
-## Program ini masih dalam perbaikan
-=======
 ## UNTUK MENJALAN DOCKERNYA HARAP PULL TERLEBIH DAHULU
 bash
 docker pull
