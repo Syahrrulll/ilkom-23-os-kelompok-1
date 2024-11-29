@@ -80,7 +80,7 @@
             <input type='password' placeholder='Password' name='password'> 
         </div>
 
-        <div class="kirim">
+        <div class="ki  rim">
             <button type="submit" name="signin">Masuk</button>
         </div>
         <div class="caption-signin">
