@@ -1,3 +1,0 @@
-PANDUAN MENJALANKAN DOCKER
-
-Docker adalah platform perangkat lunak yang memungkinkan Anda untuk membuat, menjalankan, dan mengelola aplikasi dalam container. Container adalah lingkungan terisolasi yang berisi semua yang dibutuhkan untuk menjalankan suatu aplikasi, seperti kode, library, dependensi, dan konfigurasi. Hal ini membuat aplikasi bisa berjalan konsisten di berbagai lingkungan, seperti di komputer lokal, server, atau cloud.
