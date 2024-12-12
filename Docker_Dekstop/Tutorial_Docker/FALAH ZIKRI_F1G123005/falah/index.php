@@ -73,9 +73,9 @@
 
     <div class="container">
         <h1>Selamat datang!</h1>
-        <p>Ini adalah contoh tampilan <span class="highlight">"FALAH ZIKRI"</span> yang menggunakan desain modern dan responsif.</p>
+        <p>Ini adalah contoh tampilan web <span class="highlight">"FALAH ZIKRI"</span> yang menggunakan desain modern dan responsif.</p>
         <p>PHP memungkinkan Anda untuk mengembangkan aplikasi web dinamis dan menarik seperti yang Anda lihat di sini.</p>
-        <button class="button" onclick="alert('Terima kasih telah mengunjungi!')">Klik Saya</button>
+        <button class="button" onclick="alert('Terima kasih telah mengunjungi!')">Masuk</button>
     </div>
 
 </body>
