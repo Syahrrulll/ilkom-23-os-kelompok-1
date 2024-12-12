@@ -1,0 +1,1 @@
+Docker adalah platform open-source yang dirancang untuk mengotomasikan proses penyebaran aplikasi dalam container. Container adalah lingkungan yang ringan, mandiri, dan terisolasi yang mencakup semua yang dibutuhkan untuk menjalankan aplikasi, termasuk kode, runtime, pustaka, dan pengaturan sistem.
