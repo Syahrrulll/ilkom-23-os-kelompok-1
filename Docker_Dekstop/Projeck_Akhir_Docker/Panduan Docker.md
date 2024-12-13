@@ -1,8 +1,4 @@
 
-## UNTUK MENJALAN DOCKERNYA HARAP PULL TERLEBIH DAHULU
-```
-docker pull
-```
 
 ## Membuat Container dan Menjalankan Aplikasi
 masukkan perintah berikut untuk menjalankan dan membuat container docker
