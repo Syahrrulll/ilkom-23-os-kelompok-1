@@ -45,4 +45,7 @@ docker-compose down
 
 # Tampilan Aplikasi
 Berikut adalah tampilan dari web aplikasi:
+![alt text](tampilanPHP.png)
+
+![alt text](tampilanweb.png)
 
